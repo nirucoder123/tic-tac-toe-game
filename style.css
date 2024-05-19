@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body{background-color: #a3a380ff;
+text-align: center;
+}
+.container{height: 70vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*{margin: 0px;
+padding: 0px;}
+
+.msg{font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+font-size: 30px;}
+
+  .new-btn{border-radius: 1rem;
+    width: 100px;
+    height: 50px;
+    background-color: #4ecdc4ff;
+    border: none;}
+
+h1{font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 0px 0px 0px;
+font-size: 50px;}
+
+
+.game {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 60vmin;
+  width: 60vmin;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box{
+height: 18vmin;
+width: 18vmin;
+ border-radius:  1.5rem;
+ border: none;
+ box-shadow: 0 0 0.8rem rgb(22, 21, 21);
+ background-color: #292f36ff;
+ font-size: 8vmin;
+}
+
+.box:hover {
+  background-color:  #8d97a5ff;
+  
+}
+
+.box:active{
+  background-color: #afb6c0ff;
+}
+
+.reset{
+  border-radius: 1rem;
+width: 100px;
+height: 50px;
+background-color: #4ecdc4ff;
+border: none;
+}
+.reset:hover{background-color:#36bfb6ff;}
+.new-btn:hover{background-color:#36bfb6ff;}
+
+
+.reset:active{
+  background-color: #31afa7ff;
+}
+
+.new-btn:active{
+  background-color: #31afa7ff;
+}
+
+.hide{display: none;}
+
+.chance{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
